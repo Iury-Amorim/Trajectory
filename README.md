@@ -1,6 +1,6 @@
 # Trajectory: Controller   performance   analysis
 
-This repository brings the analysis and results of trajectory tracking for the linear controllers PD and GPC, as well as the addition of the non-linear feedforward portion based on a fuzzy controller.
+This repository brings the analysis and results of trajectory tracking for the linear controllers PD and GPC, as well as the addition of the non-linear feedback portion based on a fuzzy compesator.
 For this, the integration of two free software was used: GNU Octave and CoppeliaSim from Coppelia Robotics.
 
 
