@@ -52,12 +52,16 @@ The simulator will come as an executable file.
 ### API-integration
 For the integration between the GNU Octave and CoppeliaSim read the file "API_instructions".
 
-## Dependencies:
+## Dependencies
 
   - Python
   - liboctave-dev
   
-  
+## Contributors
+Felipe Vasconcelos: [github](https://github.com/FelipeSousaVasconcelos),[linkedin](https://www.linkedin.com/in/felipe-vasconcelos-0326844b/)                                                                                                             
+Iury de Amorim: [github](https://github.com/Iury-Amorim),[linkedin](https://www.linkedin.com/in/iury-filgueiras-166a40141/)                                                                                                  
+Davi Alexandre: [github](https://github.com/Davidap041),[linkedin](https://www.linkedin.com/in/davi-alexandre-ab3278136/)
+
 ## Acknowledgements
 * The authors thank DEE-UFC and CAPES for fi-nancial support to the development of this project.
 
