@@ -10,7 +10,7 @@ For this, the integration of two free software was used: GNU Octave and Coppelia
 ### Citation
 ```
 @Misc{trajectory2020,
-author = {Felipe Vascolncelos and Iury Filgueiras and Davi Alexandre},
+author = {Felipe José de Sousa Vasconcelos and Iury de Amorim Gaspar Filgueiras and Davi Alexandre Paiva},
 title = {{Trajectory}: 
 Controller performance analysis},
 howpublished = {\url{https://github.com/Iury-Amorim/Trajectory}},
@@ -30,7 +30,8 @@ The simple way to install the software is using the following commands for ubunt
 sudo apt install octave
 ```
 
-Para a execução dos programas é necessário a utilizaço de alguns pacotes, desta forma deve-se fazer:
+
+For the execution of the programs it is necessary to use some packages, this way you must do:
 ```bash
 sudo apt install octave-symbolic
 sudo apt install octave-control
@@ -38,6 +39,19 @@ sudo apt install octave-geometry
 sudo apt install octave-signal
 sudo apt install octave-io
 ```
+
+In Octave's Command Window, load packages using the command:
+
+```bash
+pkg load (namepackage)
+```
+### CoppeliaSim
+On the [Coppelia Robotics](https://www.coppeliarobotics.com/) website, download CoppeliaSim EDU version. 
+The simulator will come as an executable file.
+
+### API-integration
+For the integration between the GNU Octave and CoppeliaSim read the file "API_instructions".
+
 ## Dependencies:
 
   - Python
