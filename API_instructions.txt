@@ -1,0 +1,14 @@
+1. Create a separate folder.
+2. In the CoppeliaSim installed files:
+	2.1 On the path  "programming/remoteApiBindings/lib/lib/Ubuntu18_04/"" copy RemoteApi.so* 
+		to your folder;
+	2.2 On the path  "programming/remoteApiBindings/octave/octave/" copy remApiSetup.m
+		to your folder;
+	2.3 Copy all files from path "programming/include/" to folder "programming/remoteApiBindings/	    octave/";
+	2.4 Copy all files from path "programming/remoteApi/" to folder "programming/remoteApiBindings/		octave/".
+3. Open the Octave and change the directory for "programming/remoteApiBindings/octave/". Execute 	   buildLin.m**.
+4. When executing the previous file, a new file will appear in the directory: "remApi.oct". Copy the 	new file to your folder.
+5. Copy the files ".m" and ".ttt" from this repository to your folder. All ready!
+
+* Specific file for Ubuntu users. Change according to your machine.
+** "buildMac.m" for Mac users, "buildWin.m" for Windows users.
